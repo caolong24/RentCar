@@ -1,4 +1,4 @@
-package com.rentcar;
+package jp.co.tokai_rikai.uqey;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
