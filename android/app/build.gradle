@@ -1,6 +1,23 @@
 apply plugin: "com.android.application"
 apply plugin: "com.facebook.react"
 
+project.ext.envConfigFiles = [
+    developmentdebug: "env/.env.development",
+    development2debug:  "env/.env.development2",
+    stagingdebug:  "env/.env.staging",
+    pprdebug: "env/.env.ppr",
+    productiondebug: "env/.env.prod",
+    
+
+    developmentrelease:  "env/.env.development",
+    development2release: "env/.env.development2",
+    stagingrelease: "env/.env.staging",
+    pprrelease:  "env/.env.ppr",
+    productionrelease: "env/.env.prod",
+
+]
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+
 import com.android.build.OutputFile
 
 /**
@@ -95,11 +112,49 @@ android {
 
     namespace "jp.co.tokai_rikai.uqey"
     defaultConfig {
+        resValue "string", "build_config_package", "jp.co.tokai_rikai.uqey"
         applicationId "jp.co.tokai_rikai.uqey"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+    }
+
+    flavorDimensions "default"
+    productFlavors {
+        development {
+            resValue "string", "app_name", project.env.get("APP_NAME")
+            applicationIdSuffix ".dev"
+            versionCode 46
+            versionName "1.0.46"
+        }
+
+        development2 {
+            resValue "string", "app_name", project.env.get("APP_NAME")
+            applicationIdSuffix ".dev2"
+            versionCode 41
+            versionName "1.0.41"
+        }
+
+        staging {
+            resValue "string", "app_name", project.env.get("APP_NAME")
+            applicationIdSuffix ".stg"
+            versionCode 16
+            versionName "1.0.16"
+        }
+
+        ppr {
+            resValue "string", "app_name", project.env.get("APP_NAME")
+            applicationIdSuffix ".ppr"
+            versionCode 14
+            versionName "1.0.14"
+        }
+
+        production {
+            resValue "string", "app_name", project.env.get("APP_NAME")
+            versionCode 8
+            versionName "1.0.0"
+        }
     }
 
     splits {
