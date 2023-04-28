@@ -93,9 +93,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.rentcar"
+    namespace "jp.co.tokai_rikai.uqey"
     defaultConfig {
-        applicationId "com.rentcar"
+        applicationId "jp.co.tokai_rikai.uqey"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
