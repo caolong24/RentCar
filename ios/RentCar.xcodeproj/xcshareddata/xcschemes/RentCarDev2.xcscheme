@@ -14,9 +14,9 @@
                <EnvironmentBuildable>
                   <BuildableReference
                      BuildableIdentifier = "primary"
-                     BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-                     BuildableName = "RentCar.app"
-                     BlueprintName = "RentCar"
+                     BlueprintIdentifier = "0ACD427D2A03959000EFB26F"
+                     BuildableName = "RentCarDev2.app"
+                     BlueprintName = "RentCarDev2"
                      ReferencedContainer = "container:RentCar.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
@@ -32,9 +32,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "RentCar.app"
-               BlueprintName = "RentCar"
+               BlueprintIdentifier = "0ACD427D2A03959000EFB26F"
+               BuildableName = "RentCarDev2.app"
+               BlueprintName = "RentCarDev2"
                ReferencedContainer = "container:RentCar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,16 +46,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "RentCarTests.xctest"
-               BlueprintName = "RentCarTests"
-               ReferencedContainer = "container:RentCar.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -72,9 +62,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RentCar.app"
-            BlueprintName = "RentCar"
+            BlueprintIdentifier = "0ACD427D2A03959000EFB26F"
+            BuildableName = "RentCarDev2.app"
+            BlueprintName = "RentCarDev2"
             ReferencedContainer = "container:RentCar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -89,9 +79,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "RentCar.app"
-            BlueprintName = "RentCar"
+            BlueprintIdentifier = "0ACD427D2A03959000EFB26F"
+            BuildableName = "RentCarDev2.app"
+            BlueprintName = "RentCarDev2"
             ReferencedContainer = "container:RentCar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
