@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  RentCar
+//
+//  Created by TanaakkHCM on 04/05/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include? "tmp.xcconfig"
