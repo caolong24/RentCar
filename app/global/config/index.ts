@@ -1,0 +1,14 @@
+import Config from 'react-native-config';
+
+export const AppConfig = {
+  ENVIRONMENT: Config.ENVIRONMENT,
+  API_URL: Config.API_URL,
+  APP_NAME: Config.APP_NAME,
+  API_KEY: Config.API_KEY,
+  URL_ADD_CARD_GMO: Config.URL_ADD_CARD_GMO,
+  EKYC_UPDATE_URL: Config.EKYC_UPDATE_URL,
+  ENCRYPTION_KEY: Config.ENCRYPTION_KEY,
+  SITE_KEY_CAPTCHA: Config.SITE_KEY_CAPTCHA,
+  SECRECT_KEY_CAPTCHA: Config.SECRECT_KEY_CAPTCHA,
+  UPLOAD_URL: Config.UPLOAD_URL,
+};

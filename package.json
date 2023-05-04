@@ -7,7 +7,27 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    
+    "android:dev2": "react-native run-android --mode=development2debug",
+    "android:dev": "react-native run-android --mode=developmentdebug",
+    "android:staging": "react-native run-android --mode=stagingdebug",
+    "android:ppr": "react-native run-android --mode=pprdebug",
+    "android:prod": "react-native run-android --mode=productiondebug",
+    "android:prod-release": "react-native run-android --mode=productionrelease",
+
+    "androidRelease:dev": "cd android && ./gradlew assembleDevelopmentRelease && cd ..",
+    "androidRelease:dev2": "cd android && ./gradlew assembleDevelopment2Release && cd ..",
+    "androidRelease:staging": "cd android && ./gradlew assembleStagingRelease && cd ..",
+    "androidRelease:ppr": "cd android && ./gradlew assemblePprRelease && cd ..",
+    "androidRelease:prod": "cd android && ./gradlew assembleProductionRelease && cd ..",
+
+    "androidBundle:dev": "cd android && ./gradlew bundleDevelopmentRelease && cd ..",
+    "androidBundle:dev2": "cd android && ./gradlew bundleDevelopment2Release && cd ..",
+    "androidBundle:staging": "cd android && ./gradlew bundleStagingRelease && cd ..",
+    "androidBundle:ppr": "cd android && ./gradlew bundlePprRelease && cd ..",
+    "androidBundle:prod": "cd android && ./gradlew bundleProductionRelease && cd .."
+
   },
   "dependencies": {
     "react": "18.2.0",
