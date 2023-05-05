@@ -14,11 +14,13 @@
     "android:ppr": "react-native run-android --mode=pprdebug",
     "android:prod": "react-native run-android --mode=productiondebug",
     "android:prod-release": "react-native run-android --mode=productionrelease",
+
     "androidRelease:dev": "cd android && ./gradlew assembleDevelopmentRelease && cd ..",
     "androidRelease:dev2": "cd android && ./gradlew assembleDevelopment2Release && cd ..",
     "androidRelease:staging": "cd android && ./gradlew assembleStagingRelease && cd ..",
     "androidRelease:ppr": "cd android && ./gradlew assemblePprRelease && cd ..",
     "androidRelease:prod": "cd android && ./gradlew assembleProductionRelease && cd ..",
+
     "androidBundle:dev": "cd android && ./gradlew bundleDevelopmentRelease && cd ..",
     "androidBundle:dev2": "cd android && ./gradlew bundleDevelopment2Release && cd ..",
     "androidBundle:staging": "cd android && ./gradlew bundleStagingRelease && cd ..",
@@ -38,7 +40,9 @@
         "expo-keep-awake",
         "expo-font",
         "expo-dev-client",
-        "expo-application"
+        "expo-application",
+        "expo-constants",
+        "expo-file-system"
       ]
     }
   },
@@ -52,6 +56,8 @@
     "@types/react": "^18.0.24",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.2.1",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "eslint": "^8.19.0",
     "jest": "^29.2.1",
     "metro-react-native-babel-preset": "0.73.9",

@@ -871,6 +871,7 @@
 		};
 		0ACD42792A03958300EFB26F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA344BE29744BF77AE428DFA /* Pods-RentCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -899,6 +900,7 @@
 		};
 		0ACD427A2A03958300EFB26F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14FA0C222437741182A12A5 /* Pods-RentCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -925,6 +927,7 @@
 		};
 		0ACD428C2A03959000EFB26F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA344BE29744BF77AE428DFA /* Pods-RentCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -953,6 +956,7 @@
 		};
 		0ACD428D2A03959000EFB26F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14FA0C222437741182A12A5 /* Pods-RentCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -979,6 +983,7 @@
 		};
 		0ACD429F2A03959600EFB26F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA344BE29744BF77AE428DFA /* Pods-RentCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1007,6 +1012,7 @@
 		};
 		0ACD42A02A03959600EFB26F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14FA0C222437741182A12A5 /* Pods-RentCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1033,6 +1039,7 @@
 		};
 		0ACD42B22A0395A100EFB26F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA344BE29744BF77AE428DFA /* Pods-RentCar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -1061,6 +1068,7 @@
 		};
 		0ACD42B32A0395A100EFB26F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D14FA0C222437741182A12A5 /* Pods-RentCar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
